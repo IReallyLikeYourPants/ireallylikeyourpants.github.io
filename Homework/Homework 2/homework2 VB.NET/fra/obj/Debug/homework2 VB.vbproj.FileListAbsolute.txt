@@ -1,0 +1,13 @@
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\homework2 VB.NET\fra\bin\Debug\homework2 VB.exe.config
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\homework2 VB.NET\fra\bin\Debug\homework2 VB.exe
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\homework2 VB.NET\fra\bin\Debug\homework2 VB.pdb
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\homework2 VB.NET\fra\bin\Debug\homework2 VB.xml
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\homework2 VB.NET\fra\obj\Debug\homework2 VB.vbproj.AssemblyReference.cache
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\homework2 VB.NET\fra\obj\Debug\homework2 VB.vbproj.SuggestedBindingRedirects.cache
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\homework2 VB.NET\fra\obj\Debug\homework2VB.Form1.resources
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\homework2 VB.NET\fra\obj\Debug\homework2VB.Resources.resources
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\homework2 VB.NET\fra\obj\Debug\homework2 VB.vbproj.GenerateResource.cache
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\homework2 VB.NET\fra\obj\Debug\homework2 VB.vbproj.CoreCompileInputs.cache
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\homework2 VB.NET\fra\obj\Debug\homework2 VB.exe
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\homework2 VB.NET\fra\obj\Debug\homework2 VB.xml
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\homework2 VB.NET\fra\obj\Debug\homework2 VB.pdb

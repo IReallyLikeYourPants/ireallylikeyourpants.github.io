@@ -1,0 +1,26 @@
+C:\Users\mkrys\Desktop\fra\fra\bin\Debug\fra.exe.config
+C:\Users\mkrys\Desktop\fra\fra\bin\Debug\fra.exe
+C:\Users\mkrys\Desktop\fra\fra\bin\Debug\fra.pdb
+C:\Users\mkrys\Desktop\fra\fra\bin\Debug\fra.xml
+C:\Users\mkrys\Desktop\fra\fra\obj\Debug\fra.vbproj.AssemblyReference.cache
+C:\Users\mkrys\Desktop\fra\fra\obj\Debug\fra.vbproj.SuggestedBindingRedirects.cache
+C:\Users\mkrys\Desktop\fra\fra\obj\Debug\fra.Form1.resources
+C:\Users\mkrys\Desktop\fra\fra\obj\Debug\fra.Resources.resources
+C:\Users\mkrys\Desktop\fra\fra\obj\Debug\fra.vbproj.GenerateResource.cache
+C:\Users\mkrys\Desktop\fra\fra\obj\Debug\fra.vbproj.CoreCompileInputs.cache
+C:\Users\mkrys\Desktop\fra\fra\obj\Debug\fra.exe
+C:\Users\mkrys\Desktop\fra\fra\obj\Debug\fra.xml
+C:\Users\mkrys\Desktop\fra\fra\obj\Debug\fra.pdb
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\fra\fra\obj\Debug\fra.vbproj.AssemblyReference.cache
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\fra\fra\obj\Debug\fra.vbproj.SuggestedBindingRedirects.cache
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\fra\fra\obj\Debug\fra.vbproj.GenerateResource.cache
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\fra\fra\obj\Debug\fra.vbproj.CoreCompileInputs.cache
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\fra\fra\bin\Debug\homework2 VB.exe.config
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\fra\fra\bin\Debug\homework2 VB.exe
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\fra\fra\bin\Debug\homework2 VB.pdb
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\fra\fra\bin\Debug\homework2 VB.xml
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\fra\fra\obj\Debug\homework2VB.Form1.resources
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\fra\fra\obj\Debug\homework2VB.Resources.resources
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\fra\fra\obj\Debug\homework2 VB.exe
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\fra\fra\obj\Debug\homework2 VB.xml
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\class_Exercises\fra\fra\obj\Debug\homework2 VB.pdb
