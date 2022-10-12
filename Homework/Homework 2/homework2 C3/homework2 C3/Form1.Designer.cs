@@ -74,9 +74,8 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label1.Location = new System.Drawing.Point(41, 380);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 25);
+            this.label1.Size = new System.Drawing.Size(0, 25);
             this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
             this.label1.Visible = false;
             // 
             // Form1

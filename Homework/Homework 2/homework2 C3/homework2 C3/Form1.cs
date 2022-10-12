@@ -9,8 +9,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-
 namespace homework2_C3
 {
     public partial class Form1 : Form
@@ -38,7 +36,6 @@ namespace homework2_C3
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
             int index = rnd.Next(list.Count);
             String value = list[index];
             if (value == "Yellow")

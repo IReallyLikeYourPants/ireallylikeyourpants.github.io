@@ -13,25 +13,26 @@ namespace C3_A4
         {
             InitializeComponent();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            OpenFileDialog choofdlog = new OpenFileDialog();
-            choofdlog.Filter = "(Comma split)| *.csv; *.txt";
-            choofdlog.FilterIndex = 1;
-            choofdlog.Multiselect = true;
-
-            if (choofdlog.ShowDialog() == DialogResult.OK)
+            dataGridView1.Rows.Clear();
+            dataGridView1.Columns.Clear();
+            dataGridView1.Refresh();
+            OpenFileDialog aaa = new OpenFileDialog();
+            aaa.Filter = "(Comma split)| *.csv; *.txt";
+            aaa.FilterIndex = 1;
+            aaa.Multiselect = false;
+            if (aaa.ShowDialog() == DialogResult.OK)
             {
-                string sFileName = choofdlog.FileName;
-                using (TextFieldParser parser = new TextFieldParser(sFileName))
+                string File = aaa.FileName;
+                using (TextFieldParser parser = new TextFieldParser(File))
                 {
                     parser.TextFieldType = FieldType.Delimited;
                     parser.SetDelimiters(",");
-                    string[] fields2 = parser.ReadFields();
-                    foreach (string field in fields2)
+                    string[] val2 = parser.ReadFields();
+                    foreach (string val1 in val2)
                     {
-                        dataGridView1.Columns.Add(field, field);
+                        dataGridView1.Columns.Add(val1, val1);
                     }
                     while (!parser.EndOfData)
                     {
@@ -41,7 +42,6 @@ namespace C3_A4
                 }
             }
         }
-
         private void dataGridView1_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             int valore = e.ColumnIndex;
@@ -52,7 +52,6 @@ namespace C3_A4
 
             }
             int valorefranco = franco.Count()-1;
-
             var hashSet = new HashSet<String>(franco);
             foreach (var value in hashSet)
             {
@@ -61,7 +60,6 @@ namespace C3_A4
                     hashSet.Remove("");
                 }
             }
-
             List <(string, int)> tupleList  = new List<(string, int)>();
             foreach (var value in hashSet)
             {
@@ -72,21 +70,22 @@ namespace C3_A4
                     {
                         conto++;
                     }
-                    
                 }
                 tupleList.Add((value, conto));
             }
             tupleList.Sort();
             foreach (var tuple in tupleList)
             {
-                richTextBox1.AppendText("The distribution of " + tuple.Item1 + " is " + tuple.Item2 + "/" + valorefranco + "\n" );
+                richTextBox1.AppendText("The relative frequence of " + tuple.Item1 + " is " + tuple.Item2 + "/" + valorefranco + "\n" );
             }
             richTextBox1.AppendText("\n");
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             richTextBox1.Clear();
+            dataGridView1.Rows.Clear();
+            dataGridView1.Columns.Clear();
+            dataGridView1.Refresh();
         }
     }
 }

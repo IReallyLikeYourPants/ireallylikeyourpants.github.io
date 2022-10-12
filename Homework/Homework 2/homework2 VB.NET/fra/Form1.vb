@@ -55,7 +55,6 @@ Public Class Form1
         Label10.Text = val4
         Label11.Text = val5
         Label13.Text = val6
-
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -89,7 +88,6 @@ Public Class Form1
         ProgressBar3.Value = 0
         ProgressBar4.Value = 0
         ProgressBar5.Value = 0
-
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
@@ -100,9 +98,5 @@ Public Class Form1
         Else
             Timer1.Interval = 1
         End If
-    End Sub
-
-    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
-
     End Sub
 End Class
