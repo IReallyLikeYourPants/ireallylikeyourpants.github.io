@@ -57,7 +57,28 @@
             AGAGA4
             </p>
             <p>TA2. <br>
-            AGAGA5
+                <b>CSV</b> (Comma Separated Values) is a simple format for representing a rectangular array (matrix) of numeric and textual values. <br>
+                It is an example of a "flat file" format. It is a delimited data format that has fields/columns separated by the comma character %x2C
+                (Hex 2C) and records/rows/lines separated by characters indicating a line break. <br>RFC 4180 stipulates the use of CRLF pairs to denote
+                line breaks, where CR is %x0D (Hex 0D) and LF is %x0A (Hex 0A). <br>Each line should contain the same number of fields, in the same order. 
+                Data within fields is interpreted as a sequence of characters, not as a sequence of bits or bytes. <br>
+                Fields that contain a special character (comma, CR, LF, or double quote), must be "escaped" by 
+                enclosing them in double quotes (Hex 22). <br>An optional header line may appear as the first line 
+                of the file with the same format as normal record lines. 
+                This header will contain names corresponding to the fields in the file and should contain the 
+                same number of fields as the records in the rest of the file. <br>
+                The last record in the file may or may not end with a line break. CSV commonly employs 
+                US-ASCII as character set, but other character sets are permitted. <br>
+                The Library of Congress Recommended Formats Statement (RFS) includes CSV as a preferred format for datasets.  <br>
+                CSV may be used at any stage in the lifecycle of a dataset. <br>
+                Widely used as an exchange format for tabular data. Although very limited in functionality, 
+                there are many data exchange or data preservation contexts for which it is adequate, 
+                particularly when the syntax and semantics of fields are described in ancillary 
+                documentation that is also exchanged or preserved.<br> CSV files can be imported and exported by 
+                almost any software designed for storing or manipulating data, including relational database 
+                systems, spreadsheet software, and statistical analysis software. <br>
+                It is a simple text-based format that is very transparent, being both human-readable and easily machine-processable.
+                
             </p>
         </div>    
 
