@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mkrys\\Desktop\\Michele\\Università\\Statistics\\Homework\\Homework 2\\C3_A4\\C3_A4\\C3_A4.csproj",
+      "projectUniqueName": "C:\\Users\\mkrys\\Documents\\GitHub\\ireallylikeyourpants.github.io\\Homework\\Homework 2\\C3_A4\\C3_A4\\C3_A4.csproj",
       "projectName": "C3_A4",
-      "projectPath": "C:\\Users\\mkrys\\Desktop\\Michele\\Università\\Statistics\\Homework\\Homework 2\\C3_A4\\C3_A4\\C3_A4.csproj",
+      "projectPath": "C:\\Users\\mkrys\\Documents\\GitHub\\ireallylikeyourpants.github.io\\Homework\\Homework 2\\C3_A4\\C3_A4\\C3_A4.csproj",
       "packagesPath": "C:\\Users\\mkrys\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mkrys\\Desktop\\Michele\\Università\\Statistics\\Homework\\Homework 2\\C3_A4\\C3_A4\\obj\\",
+      "outputPath": "C:\\Users\\mkrys\\Documents\\GitHub\\ireallylikeyourpants.github.io\\Homework\\Homework 2\\C3_A4\\C3_A4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
