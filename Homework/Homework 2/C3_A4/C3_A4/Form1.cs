@@ -15,6 +15,7 @@ namespace C3_A4
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            richTextBox1.Clear();
             dataGridView1.Rows.Clear();
             dataGridView1.Columns.Clear();
             dataGridView1.Refresh();
