@@ -27,10 +27,11 @@
             <h2>Answers</h2>
             <p>T5. <br>
                 Let's consider this dataset showing a bivariate distribution: <br>
-                <img src="media/image/distributions2.png" alt="Dataset with a bivariate distribution" style="max-width: 100%;">
+                <img src="media/image/distributions2.png" alt="Dataset with a bivariate distribution" style="height: 300px; width: auto;">
                 <br>
-                We define <b>joint relative frequencies</b> as how many times a combination of two conditions happens together. <br>
+                We define <b>joint relative frequency</b> as how many times a combination of two conditions happens together. <br>
                 It is calculated by doing Joint Frequency / Total Frequency. <br>
+                The formula is P(A ∩ B) = P(A ∩ B) / P(Total). <br>
                 So every single grey value is a joint frequency.
                  <br> For example: <br>
                 P(Male ∩ Basket) = 13/100 = 0.13 = 13% <br>
@@ -45,6 +46,7 @@
                 <br>
                 We define <b>conditional relative frequency</b> as a fraction that tells you how many members of a group have a particular characteristic. <br>
                 More technically, it is the ratio of a frequency in the center of the table (joint relative frequency) to the frequency’s row total or column total (marginal relative frequency). <br>
+                The formula is P(A | B) = P(A ∩ B) / P(B). <br>
                 For example: <br>
                 Knowing that they are males how many of them like football? <br> 
                 P(Football | Male) = P(Football ∩ Male) / P(Male) = 20/48 = 0.416 = 41.6% <br>
@@ -52,7 +54,14 @@
                 P(Female | Basketball) = P(Female ∩ Basketball) / P(Basketball) = 16/31 = 0.516 = 51.6% <br>
             </p>
             <p>T6. <br>
-                FRA FRA
+                Two events A and B are <b>statistical independent</b> if: <br>
+                P(A | B) = P(A) <br>
+                Informally speaking, the occurrence of one does not affect the probability of the occurrence of the other one. <br>
+                So, we have also that their join probability is equals to the product of their probabilities P(A ∩ B) = P(A)P(B). <br>
+                To better understand the concept, let us make an example with the dataset from the previous section (ipotetical case). <br>
+                Knowing that they like basketball, how many also like baseball? <br>
+                P(Baseball | Basketball) = P(Baseball) = 36/100 = 0.36 = 36% <br>
+                Because the fact that a person like basketball does not affect the fact that he likes baseball (maybe in real life there could be a connection). <br>
                 <br>
             
             <p>A5. <br>
@@ -60,11 +69,35 @@
                   <br>
             </p>
             <p>TA3. <br>
-            FRA FRA
+                An <b>online algorithm</b> is one that can process its input piece-by-piece in a serial fashion, i.e., in the order that the input is fed to the algorithm, 
+                without having the entire input available from the beginning. They avoid the problem of instability and overflow.<br>
+                In contrast, an offline algorithm is given the whole problem data from the beginning and is required to output an answer which solves the problem at hand. <br>
+                As an example, consider the sorting algorithms selection sort and insertion sort: <br>
+                the selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting 
+                it at the beginning, which requires access to the entire input; it is thus an offline algorithm. <br>
+                On the other hand, insertion sort considers one input element per iteration and produces a partial 
+                solution without considering future elements. Thus insertion sort is an online algorithm. <br>
+                An example of an online algorithm is the Welford’s online algorithm, which is often useful to be able to compute the variance, 
+                measure of how far a set of numbers is spread out from their average value. <br>
+                A formula for calculating the variance of an entire population of size N is (offline algorithm): <br> <br>
+                <object data="media/image/data.svg"> </object> <br> <br>
+                On the other hand Welford’s method is a usable single-pass method for computing the variance. <br>
+                It can be derived by looking at the differences between the sums of squared differences for N and N-1 samples. <br>
+                An example of the implementation for Welford's algorithm: <br> <br>
+                <img src="media/image/variance.png" alt="Variance formula" style="height: 300px; width: auto;"> <br>
+                It is possible to calculate different values with an online algorithm like the median thanks for example to the insertion sort and also
+                the mean through Knuth’s algorithm (analysed in the next section).<br>
             <br>
             </p>
             <p>TA4. <br>
-                FRA FRA
+                The quick way to calculate the mean value of a sample is first adding up all the numbers in the sample and then dividing this total by the number of sample. <br>
+                The offline way of calculating the average can lead to errors and instability, like the drop of the floating value, so it is preferable to use the online version. <br>
+                Knuth’s algorithm computes the mean iteratively.
+                This means that at each step, the value for the mean computed with the first n-1 inputs, it’s updated when the input xn is received. <br>
+                The formula used in this algorithm is the following: <br>
+                <img src="media/image/mean.png" alt="Mean"> <br>
+                And an example of the algorithm in pseudocode is: <br>
+                <img src="media/image/pseudo.png" alt="Mean" style="height: 300px; width: auto;"> <br>
                 <br>
             </p>
         </div>    
