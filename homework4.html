@@ -92,10 +92,12 @@
                 After, we have to add the bitmap to the picture box via the function FromImage. Following these steps we can draw everything we want. For example there are <br>
                 functions like DrawLines and DrawRectangle. Example of the code: <br>
                 <code style=" display: block; margin: 1em 1px;">
-                Bitmap b = new Bitmap(Width, Height); <br>
-                Graphics g = Graphics.FromImage(b); <br>
-                g.DrawLines(Pens.Black, x1, y1, x2, y2); <br>
-                g.DrawRectangle(Pens.Red, x, y, width, height);
+                Public b As Bitmap <br>
+                Public g As Graphics <br>
+                Me.b = New Bitmap(Me.PictureBox1.Width, Me.PictureBox1.Height) <br>
+                Me.g = Graphics.FromImage(b) <br>
+                g.DrawLines(Pens.Black, x1, y1, x2, y2) <br>
+                g.DrawRectangle(Pens.Red, x, y, width, height) <br>
                 </code>
 
             <p>TA6. <br>
