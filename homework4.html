@@ -29,7 +29,7 @@
             <p>T7. <br>
                 We can show that the relative frequencies have all the properties of probability. <br>
                 The properties of relative frequency are (in our example A and B are two events): <br>
-                1) The relative frequency of each outcome is a number between 0 and 1 [0 &lt f(A) &lt= 1] <br>
+                1) The relative frequency of each outcome is a number between 0 and 1 [0 &lt= f(A) &lt= 1] <br>
                 2) The relative frequencies of all the outcomes add up to 1 [f(A) + f(B) + … + f(Z) = 1]<br>
                 3) For every pair of events that are disjoint, the probability of the union of the two events is the sum of their own probabilities [(A ∩ B) != 0 => f(A U B) = f(A) + f(B)) property of additivity]<br>
                 We can see that they are practically identical to the axioms for probability: <br>
@@ -91,7 +91,7 @@
             </p>
 
             <p>A7. <br>
-                Directly implemented in A6<br>
+                Directly implemented in A6.<br>
             </p>
 
             <p>TA5. <br>
@@ -108,10 +108,11 @@
                 Me.g = Graphics.FromImage(b) <br>
                 g.DrawLines(Pens.Black, x1, y1, x2, y2) <br>
                 g.DrawRectangle(Pens.Red, x, y, width, height) <br>
+                pictureBox1.Image = b <br>
                 </code>
 
             <p>TA6. <br>
-                When we draw on Bitmaps, we have to be careful about the difference between the "real world" and the "virtual world". <br>
+                When we draw on Bitmap, we have to be careful about the difference between the "real world" and the "virtual world". <br>
                 The differences are: <br>
                 - In the real world we use the Cartesian plane, so the points are real values. The origin of the plane is 0,0 and it is down on the left <br>
                 - In the virtual world the image is composed by pixels, composed by a couple of integers. The origin is located up on the left <br>
