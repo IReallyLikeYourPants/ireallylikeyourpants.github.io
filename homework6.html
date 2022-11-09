@@ -25,14 +25,77 @@
         <div>
             <h2>Answers</h2>
             <p>T13. <br>
-                
+                In past researches, we have used the concept of statistical population, that is a set of so called statistical units. <br>
+                A <b>population</b> can be either a finite set or an infinite set of events. <br>
+                In descriptive and inferential Statistics the population is very different: <br>
+                - In descriptive Statistics, all the population is known. <br>
+                - In statistical inference, instead, the population is unknown. We have to derive informations of all the population from one (or more than one) sample. <br>
+                The concept of sampling distribution is used in statistical inference. <br>
+                A sampling distribution is the probability distribution of a given random-sample-based statistic.  <br>
+                If an arbitrarily large number of samples, each involving multiple observations, were separately used in order to <br>
+                compute one value of a statistic for each sample, then the sampling distribution is the probability distribution of the values that the statistic takes on. <br>
+                We can represent an unknown population as a random variable X. It has some values and we can derive them from the samples with probabilities (not frequencies). <br>
+                A random sample of a population is a set of n random variables. <br>
+                Each random variable in the random sample is a copy of the random variable X, because each element of the sample belongs to the population. <br>
+                We can think that each random variable is an observation on the population before the observation actually happens. <br>
+                From the random variables in a random saple we can compute statistics. <br>
+                For example if we want to calculate the mean of the random sample (sample mean) we have to:
+                <br>
+                <img src="media/image/sample1.png"  style="height: auto; width: 120px;">
+                <br>
+                The mean has different values according to the values of the random variables. <br>
+                Given a large number of samples, we will see that for example for the mean certain values are repeated more than others. <br>
+                Thanks to this we can draw a probability distribution, the so called <b>sampling distribution</b>. <br>
+                We can define it as the probability distribution of all the values that the statistic mean can assume given an arbitrarily large number of samples of size n. <br>
                  <br>
             <p>T14. <br>
-
+                From the previous section the <b>sample mean</b> of a random sample of the population is defined as: <br>
+                <br>
+                <img src="media/image/sample1.png"  style="height: auto; width: 120px;">
+                <br>
+                We can now compute the expected value and the variance of the new random variable. <br>
+                The expected value is calculated thanks to this formula:
+                <br>
+                <img src="media/image/sample2.png"  style="height: auto; width: 140px;">
+                <br>
+                It is possible to show that the expected value of the sample mean matches with the expected value of the population, thanks to the properties <br>
+                of the expected value, that are:
+                <br>
+                <img src="media/image/sample3.png"  style="height: auto; width: 100px;">
+                <br>
+                <img src="media/image/sample4.png"  style="height: auto; width: 140px;">
+                <br>
+                Speaking of the variance, it is equal to:
+                <br>
+                <img src="media/image/sample5.png"  style="height: auto; width: 170px;">
+                <br>
+                It is possible to show that the variance of the sample mean is the variance of the population divided by the sample size, thanks to these properties: <br>
+                <img src="media/image/sample6.png"  style="height: auto; width: 130px;">
+                <br>
+                <img src="media/image/sample7.png"  style="height: auto; width: 250px;">
+                <br>
+                Where the covariance of X and Y is 0 if they are indipendent, like in our case. <br>
+                Now we can talk about the <b>sample variance</b>. It is defined as:
+                <br>
+                <img src="media/image/sample8.png"  style="height: auto; width: 110px;">
+                <br>
+                We now can compute expected value and variance of this random variable. <br>
+                The expected value of the variance is: <br>
+                <br>
+                <img src="media/image/sample9.png"  style="height: auto; width: 450px;">
+                <br>
+                The variance of the sample variance is: <br>
+                <br>
+                <img src="media/image/sample10.png"  style="height: auto; width: 150px;">
+                <br>
                 <br>
             </p>
             <p>A10. <br>
-                Frafra <br><br>
+                The application allows the generation of n throws of the dice. It calculates the mean and variance. <br>
+                It allows you to generate m samples with v elements and calculates their mean and variance. it is possible to visualise the samples, <br>
+                display the graph of the distribution of the numbers, the plot of the general mean, the mean of the samples against the overall mean and the <br>
+                variance of the samples against the overall variance.
+                 <br> <br>
             <video width="320" height="180" controls>
                 <source src="media/video/11.mkv" type="video/mp4">
                 <source src="media/video/11.ogg" type="video/ogg">
