@@ -44,62 +44,53 @@ namespace Franco
             g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             int trials = (int)numericUpDown1.Value;
             int lambda = (int)numericUpDown2.Value;
-            double Y = 0;
-            Pen PenTrajectory = new Pen(Color.LimeGreen, 1);
-            List<Point> Punti = new List<Point>();
+            int trajectories = (int)numericUpDown3.Value;
+            
+            
             List<int> fraffo = new List<int>();
-            int counter = 0;
-            bool prova = false;
-            for (int X = 0; X <= trials; X++)
+            for (int i = 0; i < trajectories; i++)
             {
-                double val = r.NextDouble();
-                
-                if (val <= (float)((float)lambda/(float)trials))
+                int counter = 0;
+                bool prova = false;
+                List<Point> Punti = new List<Point>();
+                double Y = 0;
+                Random rnd = new Random();
+                Color randomColor = Color.FromArgb(rnd.Next(200), rnd.Next(200), rnd.Next(200));
+                Pen PenTrajectory = new Pen(randomColor, 1);
+                for (int X = 0; X <= trials; X++)
                 {
-                    fraffo.Add(counter);
-                    counter = 0;
-                    prova = true;
-                    Y = Y + 1;
+                    double val = r.NextDouble();
+
+                    if (val <= (float)((float)lambda / (float)trials))
+                    {
+                        fraffo.Add(counter);
+                        counter = 0;
+                        prova = true;
+                        Y = Y + 1;
+                    }
+                    if (prova == false)
+                    {
+                        counter += 1;
+                    }
+                    else
+                    {
+                        counter = 0;
+                        prova = false;
+                    }
+                    int xDevice = FromXRealToXVirtual(X, 0, trials, 0, pictureBox1.Width);
+                    int yDevice = FromYRealToYVirtual(Y, 0, trials, 0, pictureBox1.Height);
+                    Punti.Add(new Point(xDevice, yDevice));
                 }
-                if (prova == false)
-                {
-                    counter += 1;
-                }
-                else
-                {
-                    counter = 0;
-                    prova = false;
-                }
-                int xDevice = FromXRealToXVirtual(X, 0, trials, 0, pictureBox1.Width);
-                int yDevice = FromYRealToYVirtual(Y, 0, trials, 0, pictureBox1.Height);
-                Punti.Add(new Point(xDevice, yDevice));
+                g.DrawLines(PenTrajectory, Punti.ToArray());
             }
-            g.DrawLines(PenTrajectory, Punti.ToArray());
+            
             pictureBox1.Image = b;
 
             //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
             b2 = new Bitmap(pictureBox2.Width, pictureBox2.Height);
             g2 = Graphics.FromImage(b2);
             g2.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            int Penna = 0;
-            if (trials < 20)
-            {
-                Penna = 20;
-            }
-            else if (trials < 100)
-            {
-                Penna = 5;
-            }
-            else if (trials < 200)
-            {
-                Penna = 3;
-            }
-            else
-            {
-                Penna = 1;
-            }    
-            Pen Pen = new Pen(Color.LimeGreen, Penna);
+            Pen Pen = new Pen(Color.LimeGreen, 1);
             for (int i = 0; i < fraffo.Count; i++)
             {
                 int dovefarlox = pictureBox2.Width * i / fraffo.Count;

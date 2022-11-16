@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mkrys\\Desktop\\Franco\\Franco\\Franco.csproj": {}
+    "C:\\Users\\mkrys\\Desktop\\Michele\\Università\\Statistics\\Homework\\Homework 7\\Franco\\Franco\\Franco.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mkrys\\Desktop\\Franco\\Franco\\Franco.csproj": {
+    "C:\\Users\\mkrys\\Desktop\\Michele\\Università\\Statistics\\Homework\\Homework 7\\Franco\\Franco\\Franco.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mkrys\\Desktop\\Franco\\Franco\\Franco.csproj",
+        "projectUniqueName": "C:\\Users\\mkrys\\Desktop\\Michele\\Università\\Statistics\\Homework\\Homework 7\\Franco\\Franco\\Franco.csproj",
         "projectName": "Franco",
-        "projectPath": "C:\\Users\\mkrys\\Desktop\\Franco\\Franco\\Franco.csproj",
+        "projectPath": "C:\\Users\\mkrys\\Desktop\\Michele\\Università\\Statistics\\Homework\\Homework 7\\Franco\\Franco\\Franco.csproj",
         "packagesPath": "C:\\Users\\mkrys\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mkrys\\Desktop\\Franco\\Franco\\obj\\",
+        "outputPath": "C:\\Users\\mkrys\\Desktop\\Michele\\Università\\Statistics\\Homework\\Homework 7\\Franco\\Franco\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
