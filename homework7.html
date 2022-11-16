@@ -30,17 +30,65 @@
             <h2>Answers</h2>
 
             <p>T15. <br>
-
+                We have studied that we can calculate the Expected Value of a continous random variable X from this formula: <br>
+                <img src="media/image/7_3.png"  style="height: auto; width: 130px;">
+                <br>
+                We can calculate probabilities from a continuous random variable thanks to CDF (cumulative distribution function).
+                <br>
+                <img src="media/image/7_1.svg"  style="height: auto; width: 150px;">
+                <br>
+                Lebesgue-Stieltjes integration give us an alternative way to calculate the probability assigned to an interval: <br>
+                <img src="media/image/7_2.svg"  style="height: auto; width: 100px;">
+                <br>
+                
+                Computing a "normal" integral is like computing the area under the function curve. We divide the area in many vertical rectangles, the sum of all the areas of all <br>
+                the rectangles is our integral calculation. This technique is called Riemann integration. <br>
+                This way of calculating the integral has problems: <br>
+                - The function f must be continuous <br>
+                - Difficult to expand to higher dimensions <br>
+                The idea of Lebesque was to split the integral along the range or the y-axis instead of the x-asis. <br>
+                Lebesgue-Stieltjes integration generalizes both Riemann and Lebesgue integration, 
+                preserving the many advantages of the former in a more general measure-theoretic framework.  <br>
+                The Lebesgue-Stieltjes integral is the ordinary Lebesgue integral with respect to a measure known as  
+                the Lebesgue-Stieltjes measure, which may be associated to any function of bounded variation on the real line. <br>
+                In this way both in the continous and discrete world the integration domain remains continuos making the integral defined in either cases.
                  <br>
             </p>
 
             <p>T16. <br>
-                
+                The probability of an interval have lots of properties two of them are: <br>
+                - Markov’s inequality. If X is a non-negative random variable and a > 0, then the probability that X is at least a is at most the expectation of X divided by a: <br>
+                <img src="media/image/7_4.png"  style="height: auto; width: 310px;">
+                <br>
+                - Chebyshev’s inequality. It uses the variance to bound the probability that a random variable deviates far from the mean: <br>
+                <img src="media/image/7_5.png"  style="height: auto; width: 300px;">
+                <br>
+                Let's talk now about the <b>law of large numbers (LLN)</b>. <br>
+                It is a theorem that describes the results of performing the same experiment a large number of times. <br>
+                According to this law, the average of the results obtained from a large number of trials should be close to the expected value and tends to 
+                become closer and closer to the expected values as more trials are performed. <br>
+                <img src="media/image/7_6.svg"  style="height: auto; width: 120px;">
+                <br>
+                LLN can be easily proven through Markov’s inequality: <br>
+                <img src="media/image/7_7.png"  style="height: auto; width: 500px;">
+                <br>
+                If X is discrete we have to replace the integrals above with sums. <br>
+                LLN can also be proven by Chebyshev Inequality: <br>
+                <img src="media/image/7_8.png"  style="height: auto; width: 450px;">
             <br>
             </p>
 
             <p>A11. <br>
-                
+                The application allows the generation of n executions with success probability lambda / n. <br>
+                The graph on the left shows the distribution, while the graph on the right shows the "interarrival times". <br>
+                 <br> <br>
+            <video width="320" height="180" controls>
+                <source src="media/video/12.mkv" type="video/mp4">
+                <source src="media/video/12.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+              </video>
+              <br>
+            <a target=”_blank” href="https://github.com/IReallyLikeYourPants/ireallylikeyourpants.github.io/tree/main/Homework/Homework%206/Criminale">Source code!</a>
             <br>
             </p>
         </div>    
