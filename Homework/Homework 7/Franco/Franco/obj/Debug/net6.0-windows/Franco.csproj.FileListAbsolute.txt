@@ -1,0 +1,17 @@
+C:\Users\mkrys\Desktop\Franco\Franco\bin\Debug\net6.0-windows\Franco.exe
+C:\Users\mkrys\Desktop\Franco\Franco\bin\Debug\net6.0-windows\Franco.deps.json
+C:\Users\mkrys\Desktop\Franco\Franco\bin\Debug\net6.0-windows\Franco.runtimeconfig.json
+C:\Users\mkrys\Desktop\Franco\Franco\bin\Debug\net6.0-windows\Franco.dll
+C:\Users\mkrys\Desktop\Franco\Franco\bin\Debug\net6.0-windows\Franco.pdb
+C:\Users\mkrys\Desktop\Franco\Franco\obj\Debug\net6.0-windows\Franco.csproj.AssemblyReference.cache
+C:\Users\mkrys\Desktop\Franco\Franco\obj\Debug\net6.0-windows\Franco.Form1.resources
+C:\Users\mkrys\Desktop\Franco\Franco\obj\Debug\net6.0-windows\Franco.csproj.GenerateResource.cache
+C:\Users\mkrys\Desktop\Franco\Franco\obj\Debug\net6.0-windows\Franco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkrys\Desktop\Franco\Franco\obj\Debug\net6.0-windows\Franco.AssemblyInfoInputs.cache
+C:\Users\mkrys\Desktop\Franco\Franco\obj\Debug\net6.0-windows\Franco.AssemblyInfo.cs
+C:\Users\mkrys\Desktop\Franco\Franco\obj\Debug\net6.0-windows\Franco.csproj.CoreCompileInputs.cache
+C:\Users\mkrys\Desktop\Franco\Franco\obj\Debug\net6.0-windows\Franco.dll
+C:\Users\mkrys\Desktop\Franco\Franco\obj\Debug\net6.0-windows\refint\Franco.dll
+C:\Users\mkrys\Desktop\Franco\Franco\obj\Debug\net6.0-windows\Franco.pdb
+C:\Users\mkrys\Desktop\Franco\Franco\obj\Debug\net6.0-windows\Franco.genruntimeconfig.cache
+C:\Users\mkrys\Desktop\Franco\Franco\obj\Debug\net6.0-windows\ref\Franco.dll
