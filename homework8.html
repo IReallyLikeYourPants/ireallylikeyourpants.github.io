@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/icon" href="media/image/icon.png">
+        <title>Homework 8</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Homework 8 (17/11/2022 - 24/11/2022)</h1>
+            <h2>Researches</h2>
+            <p style=font-weight:bold>Researches about pure theory (T)</p>
+            T17. Search on the web about possible derivation of the Normal Distribution. <br>
+            T18. Search on the web about method to generate normal variate (eg Marsaglia method, etc.)
+            <p style=font-weight:bold>Researches about applications (A)</p>
+            A12. Consider R (radius), A(angle) uniform rv's and use them as random polar coordinates on a plane.
+            Determine the empirical distribution of the corresponding Cartesian coordinates (X,Y). <br>
+            A13. Search for the methods to generate Normal rv's X from uniform rv's, and simulate the following distribution: X, X², X/Y², X²/Y², X/Y.
+            <p style=font-weight:bold>Researches about theory relevant to applications (TA)</p>
+            TA7. Find in the web what are the distributions that you just simulated.
+
+        </div>
+        <div>
+            <h2>Answers</h2>
+
+            <p>T17. <br>
+                The normal distribution, also known as the Gaussian distribution, is a probability distribution that is symmetric about the mean, <br>
+                showing that data near the mean are more frequent in occurrence than data far from the mean. <br>
+                In graphical form, the normal distribution appears as a “bell curve”. <br>
+                The normal distribution follows the following formula: <br>
+                <img src="media/image/8_1.jpg"  style="height: auto; width: 250px;">
+                <br>
+                Where: <br>
+                - x = value of the variable or data being examined and f(x) the probability function <br>
+                - μ = the mean <br>
+                - σ = the standard deviation <br>
+                Many naturally-occurring phenomena appear to be normally-distributed. Take, for example, the distribution of the heights of human beings. <br>
+                The average height is found to be roughly 175 cm (5' 9"), counting both males and females.
+                Most people are conform to that average. Meanwhile, taller and shorter people exist, but with decreasing frequency in the population. <br>
+                According to the empirical rule, 99.7% of all people will fall with +/- three standard deviations of the mean, or between <br>
+                154 cm (5' 0") and 196 cm (6' 5"). Those taller and shorter than this would be quite rare (just 0.15% of the population each). <br>
+                <img src="media/image/8_2.png"  style="height: auto; width: 550px;">
+                <br>
+                In simple terms, the normal distribution describes a symmetrical plot of data around its mean value, <br>
+                where the width of the curve is defined by the standard deviation. <br>
+                In this distribution, the mean (average), median (midpoint), and mode (most frequent observation) are all equal to one another. <br>
+                Moreover, these values all represent the peak, or highest point, of the distribution. The distribution then falls symmetrically around the mean, <br>
+                the width of which is defined by the standard deviation. <br>
+                There are different possible derivations of the Normal Distribution, examples of them are: <br>
+                - <b>De Moivre-Laplace</b> theorem (special case of the central limit theorem), which proves that a binomial distribution can be approximated to a normal distribution (in particular cases). <br>
+                It shows that the probability mass function of the random number of “successes” observed in a series of n independent Bernoulli trials, <br>
+                each having probability p of success, converges to the probability density function of the normal distribution with mean np and <br>
+                standard deviation sqrt(np(1-p)) as n grows large, assuming p is not 0 or 1. <br>
+                - <b>Gaussian functions</b> are used to represent the probability density function of a normally distributed random variable with mean = b and variance = c^2. <br>
+                - <b>Central Limit Theorem</b> (CLT) which establishes that, in many situations, when independent random variables are summed up, <br>
+                their properly normalized sum tends toward a normal distribution even if the original variables themselves are not normally distributed. <br>
+            </p>
+
+            <p>T18. <br>
+                There are different methods to generate a normal variate. Two of them are: <br>
+                - <b>Box-Muller transform</b>, that is a random number sampling method for generating pairs of independent, standard, normally distributed <br>
+                random numbers, given a source of uniformly distributed random numbers. It was developed as a more computationally efficient alternative to the <b>inverse transform sampling method</b>. <br>
+                There is also the <b>ziggurat algorithm</b> that gives a more efficient method for scalar processors (e.g. old CPUs), meanwhile the Box-Muller transform is superior for processors with vector units. <br>
+                The formula is: <br>
+                <img src="media/image/8_3.svg"  style="height: auto; width: 250px;">
+                <br>
+                <img src="media/image/8_4.svg"  style="height: auto; width: 250px;">
+                <br>
+                Where U1 and U2 are independent samples chosen from the uniform distribution on the unit interval (0, 1). <br>
+                U1 is is seen as the radius and U2 as an angle and operating a transformation from polar to linear coordinates. <br>
+                The generated variables follow a normal distribution with mean 0 and variance 1. <br> 
+                - <b>Marsaglia polar method</b> is a method for generating a pair of independent standard normal random variables by choosing random points (x, y) in the square -1 &#60 x &#60 1, -1 &#60 y &#60 1 until: <br>
+                <img src="media/image/8_5.svg"  style="height: auto; width: 150px;">
+                <br>
+                and then returning the required pair of normal random variables as: <br>
+                <img src="media/image/8_6.svg"  style="height: auto; width: 190px;">
+           </p>
+
+           <p>A12. <br>
+                
+                <br>
+            </p>
+
+            <p>A13. <br>
+                    
+                <br>
+            </p>
+
+            <p>TA7. <br>
+                    
+                <br>
+            </p>
+        </div>    
+
+        <a href="./"><h2>Return to the main page</h2></a>
+    </body>
+</html>
