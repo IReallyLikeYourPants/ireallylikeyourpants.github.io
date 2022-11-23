@@ -1,0 +1,17 @@
+C:\Users\mkrys\Desktop\Aquila\Aquila\bin\Debug\net6.0-windows\Aquila.exe
+C:\Users\mkrys\Desktop\Aquila\Aquila\bin\Debug\net6.0-windows\Aquila.deps.json
+C:\Users\mkrys\Desktop\Aquila\Aquila\bin\Debug\net6.0-windows\Aquila.runtimeconfig.json
+C:\Users\mkrys\Desktop\Aquila\Aquila\bin\Debug\net6.0-windows\Aquila.dll
+C:\Users\mkrys\Desktop\Aquila\Aquila\bin\Debug\net6.0-windows\Aquila.pdb
+C:\Users\mkrys\Desktop\Aquila\Aquila\obj\Debug\net6.0-windows\Aquila.csproj.AssemblyReference.cache
+C:\Users\mkrys\Desktop\Aquila\Aquila\obj\Debug\net6.0-windows\Aquila.Form1.resources
+C:\Users\mkrys\Desktop\Aquila\Aquila\obj\Debug\net6.0-windows\Aquila.csproj.GenerateResource.cache
+C:\Users\mkrys\Desktop\Aquila\Aquila\obj\Debug\net6.0-windows\Aquila.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkrys\Desktop\Aquila\Aquila\obj\Debug\net6.0-windows\Aquila.AssemblyInfoInputs.cache
+C:\Users\mkrys\Desktop\Aquila\Aquila\obj\Debug\net6.0-windows\Aquila.AssemblyInfo.cs
+C:\Users\mkrys\Desktop\Aquila\Aquila\obj\Debug\net6.0-windows\Aquila.csproj.CoreCompileInputs.cache
+C:\Users\mkrys\Desktop\Aquila\Aquila\obj\Debug\net6.0-windows\Aquila.dll
+C:\Users\mkrys\Desktop\Aquila\Aquila\obj\Debug\net6.0-windows\refint\Aquila.dll
+C:\Users\mkrys\Desktop\Aquila\Aquila\obj\Debug\net6.0-windows\Aquila.pdb
+C:\Users\mkrys\Desktop\Aquila\Aquila\obj\Debug\net6.0-windows\Aquila.genruntimeconfig.cache
+C:\Users\mkrys\Desktop\Aquila\Aquila\obj\Debug\net6.0-windows\ref\Aquila.dll
