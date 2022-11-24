@@ -55,32 +55,32 @@ namespace Mandarino
 
                 if (comboBox1.Text == "X")
                 {
-                    minValue = -3;
-                    maxValue = 3;
+                    minValue = -4;
+                    maxValue = 4;
                     value = x;
                 }
                 else if (comboBox1.Text == "X^2")
                 {
                     minValue = 0;
-                    maxValue = 4;
+                    maxValue = 3;
                     value = x * x;
                 }
                 else if (comboBox1.Text == "X/Y^2")
                 {
-                    minValue = -8;
-                    maxValue = 8;
+                    minValue = -9;
+                    maxValue = 9;
                     value = x / (y * y);
                 }
                 else if (comboBox1.Text == "X^2/Y^2")
                 {
                     minValue = 0;
-                    maxValue = 4;
+                    maxValue = 3;
                     value = (x * x) / (y * y);
                 }
                 else if (comboBox1.Text == "X/Y")
                 {
-                    minValue = -10;
-                    maxValue = 10;
+                    minValue = -9;
+                    maxValue = 9;
                     value = x / y;
                 }
                 valori.Add(value);

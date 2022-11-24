@@ -15,3 +15,20 @@ C:\Users\mkrys\Desktop\Mandarino\Mandarino\obj\Debug\net6.0-windows\refint\Manda
 C:\Users\mkrys\Desktop\Mandarino\Mandarino\obj\Debug\net6.0-windows\Mandarino.pdb
 C:\Users\mkrys\Desktop\Mandarino\Mandarino\obj\Debug\net6.0-windows\Mandarino.genruntimeconfig.cache
 C:\Users\mkrys\Desktop\Mandarino\Mandarino\obj\Debug\net6.0-windows\ref\Mandarino.dll
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\bin\Debug\net6.0-windows\Mandarino.exe
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\bin\Debug\net6.0-windows\Mandarino.deps.json
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\bin\Debug\net6.0-windows\Mandarino.runtimeconfig.json
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\bin\Debug\net6.0-windows\Mandarino.dll
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\bin\Debug\net6.0-windows\Mandarino.pdb
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\obj\Debug\net6.0-windows\Mandarino.csproj.AssemblyReference.cache
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\obj\Debug\net6.0-windows\Mandarino.Form1.resources
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\obj\Debug\net6.0-windows\Mandarino.csproj.GenerateResource.cache
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\obj\Debug\net6.0-windows\Mandarino.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\obj\Debug\net6.0-windows\Mandarino.AssemblyInfoInputs.cache
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\obj\Debug\net6.0-windows\Mandarino.AssemblyInfo.cs
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\obj\Debug\net6.0-windows\Mandarino.csproj.CoreCompileInputs.cache
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\obj\Debug\net6.0-windows\Mandarino.dll
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\obj\Debug\net6.0-windows\refint\Mandarino.dll
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\obj\Debug\net6.0-windows\Mandarino.pdb
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\obj\Debug\net6.0-windows\Mandarino.genruntimeconfig.cache
+C:\Users\mkrys\Desktop\Michele\Università\Statistics\Homework\Homework 8\Mandarino\Mandarino\obj\Debug\net6.0-windows\ref\Mandarino.dll
