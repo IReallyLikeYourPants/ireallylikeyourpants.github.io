@@ -27,16 +27,16 @@
             <h2>Answers</h2>
 
             <p>T17. <br>
-                The normal distribution, also known as the Gaussian distribution, is a probability distribution that is symmetric about the mean, <br>
+                The <b>Normal Distribution</b>, also known as the Gaussian distribution, is a probability distribution that is symmetric about the mean, <br>
                 showing that data near the mean are more frequent in occurrence than data far from the mean. <br>
                 In graphical form, the normal distribution appears as a “bell curve”. <br>
                 The normal distribution follows the following formula: <br>
                 <img src="media/image/8_1.jpg"  style="height: auto; width: 250px;">
                 <br>
                 Where: <br>
-                - x = value of the variable or data being examined and f(x) the probability function <br>
-                - μ = the mean <br>
-                - σ = the standard deviation <br>
+                - x is the value of the variable or data being examined and f(x) the probability function <br>
+                - μ is the mean <br>
+                - σ is the standard deviation <br>
                 Many naturally-occurring phenomena appear to be normally-distributed. Take, for example, the distribution of the heights of human beings. <br>
                 The average height is found to be roughly 175 cm (5' 9"), counting both males and females.
                 Most people are conform to that average. Meanwhile, taller and shorter people exist, but with decreasing frequency in the population. <br>
@@ -49,19 +49,25 @@
                 In this distribution, the mean (average), median (midpoint), and mode (most frequent observation) are all equal to one another. <br>
                 Moreover, these values all represent the peak, or highest point, of the distribution. The distribution then falls symmetrically around the mean, <br>
                 the width of which is defined by the standard deviation. <br>
-                There are different possible derivations of the Normal Distribution, examples of them are: <br>
+                There are different possible <b>derivations</b> of the Normal Distribution, examples of them are: <br>
                 - <b>De Moivre-Laplace</b> theorem (special case of the central limit theorem), which proves that a binomial distribution can be approximated to a normal distribution (in particular cases). <br>
-                It shows that the probability mass function of the random number of “successes” observed in a series of n independent Bernoulli trials, <br>
+                It shows that the probability mass function of the random number of "successes" observed in a series of n independent Bernoulli trials, <br>
                 each having probability p of success, converges to the probability density function of the normal distribution with mean np and <br>
                 standard deviation sqrt(np(1-p)) as n grows large, assuming p is not 0 or 1. <br>
-                - <b>Gaussian functions</b> are used to represent the probability density function of a normally distributed random variable with mean = b and variance = c^2. <br>
+                - <b>Gaussian functions</b> function of the base form: <br>
+                <img src="media/image/8_11.svg"  style="height: auto; width: 120px;">
+                <br>
+                and with parametric extension: <br>
+                <img src="media/image/8_12.svg"  style="height: auto; width: 150px;">
+                <br>
+                It is possibile to represent the probability density function of a normally distributed random variable with mean = b and variance = c^2. <br>
                 - <b>Central Limit Theorem</b> (CLT) which establishes that, in many situations, when independent random variables are summed up, <br>
                 their properly normalized sum tends toward a normal distribution even if the original variables themselves are not normally distributed. <br>
             </p>
 
             <p>T18. <br>
-                There are different methods to generate a normal variate. Two of them are: <br>
-                - <b>Box-Muller transform</b>, that is a random number sampling method for generating pairs of independent, standard, normally distributed <br>
+                There are different methods to <b>generate</b> a normal variate. Two of them are: <br>
+                - <b>Box-Muller transform</b>, that it is a random number sampling method for generating pairs of independent, standard, normally distributed <br>
                 random numbers, given a source of uniformly distributed random numbers. It was developed as a more computationally efficient alternative to the <b>inverse transform sampling method</b>. <br>
                 There is also the <b>ziggurat algorithm</b> that gives a more efficient method for scalar processors (e.g. old CPUs), meanwhile the Box-Muller transform is superior for processors with vector units. <br>
                 The formula is: <br>
@@ -93,8 +99,8 @@
                 <br>
             </p>
             <p>A13. <br>
-            Thanks to the application, it is possible to generate different distributions from normal variables. <br>
-            Through the generate button we create the graph and via the combobox we can choose the desired distribution. <br>
+            Thanks to the application, it is possible to generate different distributions from normal variables generated through Marsaglia polar method. <br>
+            Through the generate button we create the graph and via the ComboBox we can choose the desired distribution. <br>
             We also have the option of choosing the number of variables and histograms to represent. <br>
             <br>
         <video width="320" height="180" controls>
@@ -108,23 +114,27 @@
             </p>
 
             <p>TA7. <br>
-                The distribution simulated are: <br>
-                - <b>Normal Distribution (X)</b>: It is the easiest one,  it’s the representation of a random normal variable X <br>
+                The simulated distribution are: <br>
+                - <b>Normal Distribution (X)</b>: It is the easiest one,  it is the representation of a random normal variable X<br>
                 - <b>Chi-squared Distribution (X^2)</b>: It is defined as a sum of k normal random variables xk with mean 0 and variance 1, each squared <br>
                 <img src="media/image/8_7.png"  style="height: auto; width: 190px;">
                 <br>
                 The parameter k is the degree of freedom of the random variable <br>
-                - <b>Student-T distribution (X/Y^2)</b>: <br>
+                It is mostly used in inferential statistics, notably in hypothesis testing and in construction of confidence intervals. <br>
+                - <b>Student-T Distribution (X/Y^2)</b> similar to the normal distribution curve, a little bit shorter and fatter. <br>
+                It is used when we have small samples. The formula is: <br>
                 <img src="media/image/8_8.png"  style="height: auto; width: 100px;">
                 <br>
                 Where Z is a normal random variable and K is a Y^2 random variable with n degrees of freedom (in our exercise one degree)<br>
-                - <b>Fisher-Snedecor Random Variable (X^2/Y^2)</b>: can be defined as <br>
+                - <b>F-Distribution (X^2/Y^2)</b> often used in hypothesis testing. It can be defined as <br>
                 <img src="media/image/8_9.svg"  style="height: auto; width: 100px;">
                 <br>
-                Where S1 and S2 are our two X^2 indipendent normal random variables with degree of freedom d1 and d2 (in our exercise one degree)<br>
-                - <b>Cauchy Random Variable (X/Y)</b>: Can be defined as <br>
+                Where S1 and S2 are our two indipendent normal random variables with degree of freedom d1 and d2 (in our exercise one degree)<br>
+                - <b>Cauchy Distribution (X/Y)</b> similar to the normal one but with a taller peak and its fat tails decay much more slowly. Can be defined as <br>
                 <img src="media/image/8_10.png"  style="height: auto; width: 230px;">
                 <br>
+                The Cauchy distribution is well known for the fact that it’s expected value and other moments do not exist. <br>
+                The median and mode do exist and they are equal. <br>
                 It is a continuos probability distribution with PDF (probability density function). x0 is the location of the peak of the distribution <br>
                 and y shows half of the width at half of the maximum height (in our exercise, x0 is 0 and y is 1)<br>
             </p>
