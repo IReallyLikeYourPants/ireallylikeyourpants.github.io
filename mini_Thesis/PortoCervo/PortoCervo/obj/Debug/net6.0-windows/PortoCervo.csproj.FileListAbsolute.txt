@@ -1,0 +1,17 @@
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\bin\Debug\net6.0-windows\PortoCervo.exe
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\bin\Debug\net6.0-windows\PortoCervo.deps.json
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\bin\Debug\net6.0-windows\PortoCervo.runtimeconfig.json
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\bin\Debug\net6.0-windows\PortoCervo.dll
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\bin\Debug\net6.0-windows\PortoCervo.pdb
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\obj\Debug\net6.0-windows\PortoCervo.csproj.AssemblyReference.cache
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\obj\Debug\net6.0-windows\PortoCervo.Form1.resources
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\obj\Debug\net6.0-windows\PortoCervo.csproj.GenerateResource.cache
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\obj\Debug\net6.0-windows\PortoCervo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\obj\Debug\net6.0-windows\PortoCervo.AssemblyInfoInputs.cache
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\obj\Debug\net6.0-windows\PortoCervo.AssemblyInfo.cs
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\obj\Debug\net6.0-windows\PortoCervo.csproj.CoreCompileInputs.cache
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\obj\Debug\net6.0-windows\PortoCervo.dll
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\obj\Debug\net6.0-windows\refint\PortoCervo.dll
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\obj\Debug\net6.0-windows\PortoCervo.pdb
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\obj\Debug\net6.0-windows\PortoCervo.genruntimeconfig.cache
+C:\Users\mkrys\Desktop\PortoCervo\PortoCervo\obj\Debug\net6.0-windows\ref\PortoCervo.dll
